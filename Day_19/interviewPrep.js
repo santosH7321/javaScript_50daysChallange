@@ -113,7 +113,7 @@ const roomMat = ["Nishant_Ranjan", "Santosh_kumar", "Vivek_Raj"];
 // console.log(roomMat);
 // console.log([roomMat]);
 // console.table(roomMat);
-roomMat[1] = 'Santosh_Kumar_Yadav';
+// roomMat[1] = 'Santosh_Kumar_Yadav';
 // console.table(roomMat);
 
 
@@ -124,11 +124,45 @@ roomMat[1] = 'Santosh_Kumar_Yadav';
 // console.table(roomMat);
 // console.log(roomMat.findIndex("Mrinal_kumar"));
 
-let arr2 = ['Upendra', "Arun", "Anil", "Sulil"];
+let arr2 = ['Upendra', "Arun", "Anil", "Sunil"];
 // console.log(roomMat.join());
 // console.log(roomMat + arr2);
 // console.log(arr2.concat());
 // console.log(...roomMat + (arr2));
 
 // console.log(roomMat.find("Nishant_Ranjan"));
+
+// console.log(...roomMat, ...arr2);
+
+
+
+const myArr = [0,1,2,3,4,5];
+const myHero = ["Santosh", "Kumar", "Yadav"];
+
+const myArr2 = new Array(1,2,3,4);
+// console.log(myArr[0], myArr[1]);
+// myArr.push(6);
+// console.log(myArr);
+// myArr.pop();
+// console.log(myArr);
+// myArr.unshift(-1);
+// console.log(myArr);
+
+// myArr.shift();
+// console.log(myArr);
+
+// console.log(myArr.includes(9)); // false it is checking index
+// console.log(myArr);
+
+
+// console.log(myArr.indexOf(3)); //3
+// console.log(myArr);
+
+// const newArr = myArr.join();
+// console.log(newArr);
+
+// console.log(...myArr, ...roomMat);
+
+
+
 

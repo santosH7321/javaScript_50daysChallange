@@ -163,6 +163,84 @@ const myArr2 = new Array(1,2,3,4);
 
 // console.log(...myArr, ...roomMat);
 
+// Objects -------
+const jsUser = {
+    name: "Santosh",
+    age: 21,
+    location: "Bihar",
+    email: "santoshkumar23kky@gmail.com",
+    isLogedIn: false,
+    isLogedIn_A_Day: ["monday", "saturday"]
+}
+// console.log(jsUser.name);
+// console.log(jsUser.isLogedIn_A_Day);
 
+// SYMBOL
+const mySym = Symbol("key1");
+// console.log(jsUser.mySym); //undefined
+
+jsUser.email = "santoshkumar24kky@gmail.com";
+Object.freeze(jsUser);
+// console.log(jsUser);
+// console.log(Object.freeze(jsUser));
+
+// object are two type
+// so first is singlton object ex- const santosh = new object()
+// and second is Non-singlton object ex- const santosh_kumar = {}
+
+const tinderUser = new Object()
+
+tinderUser.id = '123abc'
+tinderUser.name = "Santosh"
+tinderUser.isLogIn = false
+
+// console.log(tinderUser);
+
+
+const regularUser = {
+    email: 'santoshkuma123@gmail.com',
+    fullName: {
+        userFirstName: "Santosh",
+        lastName: "Kumar"
+    }
+}
+// console.log(regularUser.fullName); // output { userFirstName: 'Santosh', lastName: 'Kumar' }
+
+const obj1 = {1:"a", 2:"b"}
+const obj2 = {3:"c", 4:"d"}
+const obj3 = Object.assign({},obj1, obj2)
+// console.log(obj3);
+const obj4 = {...obj1, ...obj2}
+// console.log(obj4);
+
+const users = [
+    {
+        id: 1,
+        email: "santoshkumar23kky@gmail.com"
+    },
+
+    {
+        id: 2,
+        email: "santoshkumar123@gmail.com"
+    }
+
+]
+// console.log(users);
+// users[1].email
+// console.log(users.email);
+
+
+// object Destucturing
+const course = {
+    courseName: "js in Hindi",
+    price: "999",
+    courseInstructor: "Santosh"
+
+}
+// console.log(course);
+const {courseInstructor: Instructor} = course
+const {courseInstructor} = course
+console.log(courseInstructor);
+console.log(courseInstructor)
 
 

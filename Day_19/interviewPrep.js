@@ -85,12 +85,50 @@ let Empety = "";
 
 
 //COMPARESION OPERATOR
-console.log("2">1); //true
-console.log("2"<1); //false
-console.log(null>0); //false
-console.log(null == 0); //false
-console.log(null>=0); //true
-console.log("2"== 2); //true
-console.log('2' === 2); //false
+// console.log("2">1); //true
+// console.log("2"<1); //false
+// console.log(null>0); //false
+// console.log(null == 0); //false
+// console.log(null>=0); //true
+// console.log("2"== 2); //true
+// console.log('2' === 2); //false
 
+
+// DATA TYPES
+
+// Data type is bacically two type so first is primitive and second is Non-primitive
+//primitive - is 7 types
+// string, Number, Boolean, null, undefined, symbol, BigInt.
+
+// Non-primitive type (Reference)
+// Array, Objects, Functions
+
+const id = Symbol('123');
+const anotherId = Symbol('123');
+// console.log(id === anotherId); //false
+// console.log(id == anotherId); //false
+
+// ARRAY
+const roomMat = ["Nishant_Ranjan", "Santosh_kumar", "Vivek_Raj"];
+// console.log(roomMat);
+// console.log([roomMat]);
+// console.table(roomMat);
+roomMat[1] = 'Santosh_Kumar_Yadav';
+// console.table(roomMat);
+
+
+// console.log(roomMat.length);
+// console.log(roomMat.indexOf());
+// console.log(roomMat.push("Mrinal_kumar"));
+// console.log(roomMat);
+// console.table(roomMat);
+// console.log(roomMat.findIndex("Mrinal_kumar"));
+
+let arr2 = ['Upendra', "Arun", "Anil", "Sulil"];
+// console.log(roomMat.join());
+// console.log(roomMat + arr2);
+// console.log(arr2.concat());
+// console.log(...roomMat + (arr2));
+
+// console.log(roomMat.find("Nishant_Ranjan"));
 

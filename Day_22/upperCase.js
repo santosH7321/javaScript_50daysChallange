@@ -7,8 +7,7 @@ const toUpperCase = (strings) => {
   };
   
   // testing the function
-  console.log(toUpperCase(["Pranay", "Gupta"])); // expected output: ['PRANAY', 'GUPTA']
+  console.log(toUpperCase(["Santosh", "Kumar"])); // expected output: ['Santosh', 'Kumar']
   console.log(toUpperCase(["hello", "world"])); // expected output: ['HELLO', 'WORLD']
   console.log(toUpperCase(["abc", "DEF", "gHi"])); // expected output: ['ABC', 'DEF', 'GHI']
 
-  
